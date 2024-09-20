@@ -1,4 +1,4 @@
-# ASP.NET Application
+# ALTEN SHOP BACK
 
 Ce projet est une application web développée avec [ASP.NET Core](https://dotnet.microsoft.com/apps/aspnet).
 
