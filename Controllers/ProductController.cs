@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.JsonPatch;
 
 namespace back.Controllers
 {
-    [Route("api/product")]
+    [Route("api/products")]
     [ApiController]
     public class ProductController : ControllerBase
     {
