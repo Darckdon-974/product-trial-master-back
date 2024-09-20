@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
@@ -27,8 +28,8 @@ namespace back.Migrations
                     ShellId = table.Column<int>(type: "int", nullable: false),
                     InventoryStatus = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Rating = table.Column<int>(type: "int", nullable: false),
-                    CreateAt = table.Column<long>(type: "bigint", nullable: false),
-                    UpdateAt = table.Column<long>(type: "bigint", nullable: false)
+                    CreateAt = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    UpdateAt = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
                 {
